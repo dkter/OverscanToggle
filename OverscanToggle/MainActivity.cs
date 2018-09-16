@@ -15,7 +15,7 @@ using Android.Content;
 
 namespace OverscanToggle
 {
-    [Activity(Label = "OverscanToggle", MainLauncher = true)]
+    [Activity(Label = "OverscanToggle", MainLauncher = true, Icon = "@mipmap/ic_launcher")]
     public class MainActivity : Activity
     {
         public const int DIALOG_TIMEOUT = 15000;
@@ -46,6 +46,7 @@ namespace OverscanToggle
             // (i am aware this can be condensed, but S A F E T Y)
 
             text_screenres.Text = $"Your screen resolution is {width}x{height}";  // TIL Python stole f-strings from C#
+                                                                                  // (actually, C# 6.0 came out in July 2015 and PEP 498 was created in August 2015, so there isn't much of a time difference)
 
             SeekBar sb_left = FindViewById<SeekBar>(Resource.Id.sb_left);
             SeekBar sb_right = FindViewById<SeekBar>(Resource.Id.sb_right);
