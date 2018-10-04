@@ -9,6 +9,9 @@ Android 7.0 Nougat or above is required if you want a quick settings toggle; oth
 
 I tested OverscanToggle on stock builds of Android 8.1 and 9.0 rooted with Magisk.
 
+### Download
+Download from the releases page or [click here](https://github.com/dkter/OverscanToggle/releases/download/1.0/OverscanToggle.OverscanToggle.apk). You'll have to sideload the app onto your Android device, and root access is required.
+
 ### Known issues
 Some apps double the overscan area for some reason. I don't know why, but it's not under my control. If you want, you can nag the developer(s) of whatever app you're having problems with, but I doubt they'll care. It might not even be under their control.
 
